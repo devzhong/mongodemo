@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://sioeye:sioeye@localhost:27017/admin?readPreference=secondaryPreferred
+logging:
+  level: debug
+#db.createUser(
+  #  {
+  #    user: "sioeye",
+  #    pwd: "sioeye",
+  #    roles: [ "readWrite" ]
+  #  }
+  #)
